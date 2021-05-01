@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testng demo]">
+  <test name="testannotations(failed)">
+    <classes>
+      <class name="demoapp.firstprogram">
+        <methods>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- demoapp.firstprogram -->
+      <class name="demoapp.Dependsclass">
+        <methods>
+          <include name="logouttest"/>
+          <include name="newtest"/>
+          <include name="logintest"/>
+          <include name="homepagetest"/>
+        </methods>
+      </class> <!-- demoapp.Dependsclass -->
+    </classes>
+  </test> <!-- testannotations(failed) -->
+</suite> <!-- Failed suite [testng demo] -->
